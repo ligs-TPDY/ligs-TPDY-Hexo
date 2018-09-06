@@ -3,9 +3,11 @@ Hexo文件夹。本地终端使用该文件编辑博客
 # 一，Mac下利用Hexo+GitHub轻松搭建自己的博客
 ### Hexo安装
 1，基本流程：
+>
 1.hexo是基于nodejs的，需安装nodejs，安装nodejs最好选择homebrew
 2.首先查看电脑是否安装ruby，因为homebrew安装依赖ruby
 3.安装顺序：homebrew---->nodejs---->hexo
+>
 2，具体安装流程：
 1,安装homebrew终端命令：	                   
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
