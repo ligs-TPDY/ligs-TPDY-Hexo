@@ -130,7 +130,7 @@ Hexo文件夹。本地终端使用该文件编辑博客
 ### 创建自己的GitHub Pages
 ### 创建自己的GitHub Pages完成
 
-### 快速、简洁且高效的博客框架
+## 二，快速、简洁且高效的博客框架
 ###### Hexo官网：
 https://hexo.io/zh-cn/
 	
