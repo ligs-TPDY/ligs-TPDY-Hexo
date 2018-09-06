@@ -10,7 +10,7 @@ Hexo文件夹。本地终端使用该文件编辑博客
 ###### 1,安装homebrew终端命令：	 
                   
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-2,安装nodejs终端命令：
+###### 2,安装nodejs终端命令：
 
 	brew install node
 	
@@ -18,7 +18,7 @@ Hexo文件夹。本地终端使用该文件编辑博客
 			You have Xcode 8 installed without the CLT;
 		根据提示进行安装
 		
-3，安装hexo终端命令:
+###### 3，安装hexo终端命令:
 
 	sudo npm install -g hexo
 ### Hexo安装成功
