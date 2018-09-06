@@ -1,7 +1,7 @@
 # ligs-TPDY-Hexo
 Hexo文件夹。本地终端使用该文件编辑博客
-#一，Mac下利用Hexo+GitHub轻松搭建自己的博客
-###Hexo安装
+# 一，Mac下利用Hexo+GitHub轻松搭建自己的博客
+### Hexo安装
 1，基本流程：
 1.hexo是基于nodejs的，需安装nodejs，安装nodejs最好选择homebrew
 2.首先查看电脑是否安装ruby，因为homebrew安装依赖ruby
@@ -16,9 +16,9 @@ Hexo文件夹。本地终端使用该文件编辑博客
 		根据提示进行安装
 	3，安装hexo终端命令:
 	sudo npm install -g hexo
-###Hexo安装成功
+### Hexo安装成功
 
-###本地工作空间
+### 本地工作空间
 1，创建本地文件夹，在该文件夹中启动Hexo工作，注意自己注意创建的目录：
 	mkdir blog 		新建文件
 	cd blog 			打开新建的文件
@@ -28,9 +28,9 @@ Hexo文件夹。本地终端使用该文件编辑博客
 	hexo server 		/** 在服务器上运行 **/
 3，在浏览器中打开下面的地址，就可以看到默认的界面主页
 	http://localhost:4000
-###本地工作空间创建完毕
+### 本地工作空间创建完毕
 
-###关联到GitHub
+### 关联到GitHub
 1，我们先不急着写博客，先解决一个问题，就是本地创建的博客文件，如何同步到GitHub中？这里有一种比较方便的方法，可以自动同步你的文件到GitHub。那就是使用Hexo的配置文件来处理。
 ——
 	Hexo的每一个功能的配置文件都是_config.yml， 具体说明看下面的注解：
@@ -112,20 +112,20 @@ Hexo文件夹。本地终端使用该文件编辑博客
   		repo: https://github.com/xxx/xxx.github.io.git
   		branch: master
   （xxx为个人github的name）
-###关联到GitHub完成
+### 关联到GitHub完成
 
-###让我们来创建一篇自己的博客吧
+### 让我们来创建一篇自己的博客吧
 首先进入终端，使用cd命令进入到有Hexo框架的目录里面（bolg），输入：
 	hexo new post "我的第一篇博客"
 	(注意，该文件可以使用Markdown的编辑文件编辑，Hexo会自动转化为静态页面)
 然后输入：hexo generate 或者 hexo g 	/** 生成一套静态网页 **/
 最后将该页面同步到GitHub上去，输入Hexo deploy 或者 Hexo d,该静态页面就会同步到GitHub上。
-###创建一篇自己的博客完成
+### 创建一篇自己的博客完成
 
-###如何访问GitHub上的静态页面呢
+### 如何访问GitHub上的静态页面呢
 从《本地工作空间》我们知道，可以在自己电脑上启动Hexo服务器，然后通过固定的地址就可以看到我们自己定义的界面。我们后来自己创建的博客也会出现在这个界面，但毕竟是我们本地的服务器，访问上很不方便。如何让远在五湖四海的兄弟都能看到你最新的博客呢？对，答案就是将Hexo生成的静态页面托管到GitHub上。上面的工作，我们已经顺利的将静态页面托管到了GitHub上，接下来就是如何访问他们了？
-###创建自己的GitHub Pages
-###创建自己的GitHub Pages完成
+### 创建自己的GitHub Pages
+### 创建自己的GitHub Pages完成
 	
  
 
