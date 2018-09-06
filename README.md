@@ -1,5 +1,5 @@
-# ligs-TPDY-Hexo
-Hexo文件夹。本地终端使用该文件编辑博客。。。。
+#ligs-TPDY-Hexo
+######Hexo文件夹。本地终端使用该文件编辑博客。。。。
 #一，Mac下利用Hexo+GitHub轻松搭建自己的博客
 ###Hexo安装
 1，基本流程：
