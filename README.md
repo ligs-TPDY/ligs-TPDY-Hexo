@@ -14,9 +14,9 @@ Hexo文件夹。本地终端使用该文件编辑博客
 
 	brew install node
 	
-在安装nodejs过程中，提示如下警告：
+###### 在安装nodejs过程中，提示如下警告：
 			You have Xcode 8 installed without the CLT;
-		根据提示进行安装
+###### 根据提示进行安装
 		
 ###### 3，安装hexo终端命令:
 
