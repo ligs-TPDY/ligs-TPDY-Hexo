@@ -135,8 +135,8 @@ Hexo文件夹。本地终端使用该文件编辑博客
 https://hexo.io/zh-cn/
 
 ### 一款比较漂亮的博客主题
-资源地址[themes](https://hexo.io/themes/)
-资源地址[theme](https://chaoo.oschina.io)
+###### 资源地址[themes](https://hexo.io/themes/)
+###### 资源地址[theme](https://chaoo.oschina.io)
 	
  
 
