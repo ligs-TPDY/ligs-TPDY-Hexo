@@ -121,14 +121,17 @@ about:
 # Links widget. Empty links will hide widget.
 links:
   - title: 简书
-    url: https://www.jianshu.com/
+    url: https://www.jianshu.com
+  - title: CSDN
+    url: https://blog.csdn.net
+  - title: GitHub
+    url: https://github.com
+  - title: 码农翻身
+    url: https://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665514860&idx=1&sn=641187383bb8d9d3f56009a7ed1e2696&chksm=80d67f2fb7a1f639384a807b0496a03794cf3f47b24d8c41ddc49b02f43bb1924becbd7cf035&mpshare=1&scene=23&srcid=0726mEp0DAr4LP3jaoe9vZK0#rd
   - title: CocoaChina
-    url: http://www.cocoachina.com/
-  - title: site-name3
-    url: http://www.example3.com/
-  - title: 简书
-    url: https://www.jianshu.com/
-  - title: CocoaChina
-    url: http://www.cocoachina.com/
-  - title: site-name3
-    url: http://www.example3.com/
+    url: http://www.cocoachina.com
+  - title: 即时通讯网
+    url: http://www.52im.net
+
+  - title: appleDeveloperDocumentation
+    url: https://developer.apple.com/documentation
