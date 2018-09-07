@@ -133,6 +133,10 @@ Hexo文件夹。本地终端使用该文件编辑博客
 ### 快速、简洁且高效的博客框架
 ###### Hexo官网：
 https://hexo.io/zh-cn/
+
+### 一款比较漂亮的博客主题
+资源地址[themes](https://hexo.io/themes/)
+资源地址[theme](https://chaoo.oschina.io)
 	
  
 
