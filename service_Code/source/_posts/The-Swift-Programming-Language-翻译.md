@@ -3,5 +3,12 @@ title: The Swift Programming Language (4.0)(翻译)
 date: 2018-09-11 16:39:26
 tags: Swift
 ---
-#####    一直以来，我都想好好的研究研究一下这个新语言。之前虽然用过一段时间，但一直都觉得不甚了解。这本书已经得到了好久，期间也断断续续的读过，但我的英文水平有限，所以也就是看看示例代码而已。这次，又捡起这本书。想着可怜巴巴的英文水平，就想着借这个机会翻译翻译，即便是多数情况要借助翻译工具，但接触的多了，我的英文水平总该有所改善吧。同时又可以细化自己对这门语言的理解。记得有位大神说过：想让自己的水平提高，就试着写自己的博客吧。
-#####    自己最早接触的语言是C，后来做iOS开发，学习了OC语言。对python，js和java有点模糊的认知。记得刚接触OC时，就无数次的接触这样一个名词：“面向对象”。在将近3年的开发经历中，一直都是使用OC。自从1年前开始接触swift，发现这个新语言真真的是好用。奈何现在公司的项目还没有考虑使用这门语言，所以，自己只能随便搞搞。最近的工作紧张起来，希望自己可以坚持翻译。
+######    一直以来，我都想好好的研究研究一下这个新语言。之前虽然用过一段时间，但一直都觉得不甚了解。这本书已经得到了好久，期间也断断续续的读过，但我的英文水平有限，所以也就是看看示例代码而已。这次，又捡起这本书。想着可怜巴巴的英文水平，就想着借这个机会翻译翻译，即便是多数情况要借助翻译工具，但接触的多了，我的英文水平总该有所改善吧。同时又可以细化自己对这门语言的理解。记得有位大神说过：想让自己的水平提高，就试着写自己的博客吧。
+######    自己最早接触的语言是C，后来做iOS开发，学习了OC语言。对python，js和java有点模糊的认知。记得刚接触OC时，就无数次的接触这样一个名词：“面向对象”。在将近3年的开发经历中，一直都是使用OC。自从1年前开始接触swift，发现这个新语言真真的是好用。奈何现在公司的项目还没有考虑使用这门语言，所以，自己只能随便搞搞。最近的工作紧张起来，希望自己可以坚持翻译。
+###### Welcome to Swift
+###### About Swift
+###### “Swift is a fantastic way to write software, whether it’s for phones, desktops, servers, or anything else that runs code. It’s a safe, fast, and interactive programming language that combines the best in modern language thinking with wisdom from the wider Apple engineering culture and the diverse contributions from its open-source community. The compiler is optimized for performance and the language is optimized for development, without compromising on either.”
+“Swift是编写软件的绝佳方式，无论是用于手机，台式机，服务器还是其他任何运行代码的软件。 它是一种安全，快速，交互式的编程语言，它将现代语言思维的最佳结合与来自更广泛的Apple工程文化的智慧和来自开源社区的各种贡献相结合。 编译器针对性能进行了优化，语言针对开发进行了优化，而且不会影响任何一个。”
+
+
+
