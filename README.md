@@ -138,6 +138,10 @@ https://hexo.io/zh-cn/
 ### 一款比较漂亮的博客主题
 ###### 资源地址[themes](https://hexo.io/themes/)
 ###### 资源地址[theme](https://chaoo.oschina.io)
+
+
+# 遇到的问题集锦
+###### 1，[【Hexo异常】fatal: in unpopulated submodule '.deploy_git'](https://blog.csdn.net/nomasp/article/details/79504699)
 	
  
 
