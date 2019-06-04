@@ -47,16 +47,19 @@ tags: RN
 
 ###### 使用 React Native 命令行工具来创建一个名为"AwesomeProject"的新项目：
 
-    
-###### ！！！注意！！！：init 命令默认会创建最新的版本，而目前最新的 0.45 及以上版本需要下载 boost 等几个第三方库编译。这些库在国内即便翻墙也很难下载成功，导致很多人无法运行iOS项目！！！中文网在论坛中提供了这些库的国内下载链接。如果你嫌麻烦，又没有对新版本的需求，那么可以暂时创建0.44.3的版本。
-
-    sudo react-native init AwesomeProject
-
-##### 提示：你可以使用--version参数（注意是两个杠）创建指定版本的项目。例如sudo react-native init MyApp --version 0.44.3。注意版本号必须精确到两个小数点。
+    sudo react-native init MyApp --version 0.44.3
 
 
 ##### 编译并运行 React Native 应用
 ###### 在你的项目目录中运行react-native run-ios：
 
-    cd AwesomeProject
-    sudo react-native run-ios
+    cd MyApp
+    react-native run-ios
+    
+###### 第一次跑，想直接成功。哼，只要你按照官方文档来，那就不可能成功。
+
+    报错：Could not find iPhone 6 simulator
+    解决：https://blog.csdn.net/qq_33182756/article/details/89764831
+    
+    报错：Error: EACCES: permission denied, open '/Users/administrator/.babel.json'
+    解决：sudo chown 你的用户名 ~/.babel.json
