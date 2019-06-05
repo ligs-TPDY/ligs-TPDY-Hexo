@@ -14,8 +14,8 @@ tags: RN
     brew install node
     brew install watchman
 ###### 如果你已经安装了 Node，请检查其版本是否在 v10 以上。安装完 Node 后建议设置 npm 镜像以加速后面的过程（或使用科学上网工具）。
-    sudo npm config set registry https://registry.npm.taobao.org --global
-    sudo npm config set disturl https://npm.taobao.org/dist --global
+    npm config set registry https://registry.npm.taobao.org --global
+    npm config set disturl https://npm.taobao.org/dist --global
     
 ###### Watchman则是由 Facebook 提供的监视文件系统变更的工具。安装此工具可以提高开发时的性能（packager 可以快速捕捉文件的变化从而实现实时刷新）。
 
@@ -24,12 +24,12 @@ tags: RN
 ##### Yarn、React Native 的命令行工具（react-native-cli）
 ###### Yarn是 Facebook 提供的替代 npm 的工具，可以加速 node 模块的下载。React Native 的命令行工具用于执行创建、初始化、更新项目、运行打包服务（packager）等任务。
 
-    sudo npm install -g yarn react-native-cli
+    npm install -g yarn react-native-cli
     
 ###### 安装完 yarn 后同理也要设置镜像源：
 
-    sudo yarn config set registry https://registry.npm.taobao.org --global
-    sudo yarn config set disturl https://npm.taobao.org/dist --global
+    yarn config set registry https://registry.npm.taobao.org --global
+    yarn config set disturl https://npm.taobao.org/dist --global
     
 ###### 安装完 yarn 之后就可以用 yarn 代替 npm 了，例如用yarn代替npm install命令，用yarn add 某第三方库名代替npm install 某第三方库名。
 
@@ -47,7 +47,7 @@ tags: RN
 
 ###### 使用 React Native 命令行工具来创建一个名为"AwesomeProject"的新项目：
 
-    sudo react-native init MyApp --version 0.44.3
+    react-native init MyApp --version 0.44.3
 
 
 ##### 编译并运行 React Native 应用
@@ -55,11 +55,3 @@ tags: RN
 
     cd MyApp
     react-native run-ios
-    
-###### 第一次跑，想直接成功。哼，只要你按照官方文档来，那就不可能成功。
-
-    报错：Could not find iPhone 6 simulator
-    解决：https://blog.csdn.net/qq_33182756/article/details/89764831
-    
-    报错：Error: EACCES: permission denied, open '/Users/administrator/.babel.json'
-    解决：sudo chown 你的用户名 ~/.babel.json
